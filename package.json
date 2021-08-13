@@ -21,6 +21,9 @@
   ],
   "author": "Alberto Rico",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/alrico88/node-read-file-helper"
+  },
   "sideEffects": false,
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.1",
