@@ -3,7 +3,6 @@
   "version": "1.0.1",
   "description": "Helpers to read file from disk as text, JSON and other formats",
   "source": "src/index.ts",
-  "exports": "./dist/index.modern.js",
   "main": "./dist/index.js",
   "module": "./dist/index.umd.js",
   "typings": "./dist/index.d.ts",
