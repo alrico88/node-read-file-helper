@@ -1,0 +1,37 @@
+{
+  "name": "node-read-file-helper",
+  "version": "0.1.0",
+  "description": "Helpers to read file from disk as text, JSON and other formats",
+  "source": "src/index.ts",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.modern.js",
+  "exports": "./dist/index.modern.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "docs": "typedoc src/index.ts --readme README.md",
+    "lint": "eslint",
+    "prepublish": "pnpm run build"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "author": "Alberto Rico",
+  "license": "MIT",
+  "sideEffects": false,
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "microbundle": "^0.13.3",
+    "tslib": "^2.3.1",
+    "typedoc": "^0.21.5",
+    "typedoc-plugin-markdown": "^3.10.4",
+    "typescript": "^4.3.5"
+  }
+}
