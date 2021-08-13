@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Helpers to read file from disk as text, JSON and other formats",
   "source": "src/index.ts",
-  "main": "./dist/index.umd.js",
-  "module": "./dist/index.modern.js",
   "exports": "./dist/index.modern.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.umd.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
